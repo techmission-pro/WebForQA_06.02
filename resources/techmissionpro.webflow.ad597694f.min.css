@@ -2049,7 +2049,8 @@ body {
     font-family: Roboto, sans-serif;
     color: #333;
     font-size: 16px;
-    line-height: 22px
+    line-height: 22px;
+    padding-top: 94px
 }
 
 h1 {
@@ -2342,7 +2343,7 @@ p {
 }
 
 .navigation {
-    position: static;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -3048,8 +3049,7 @@ p {
 }
 
 .text-block-5 {
-    font-family: Montserrat, sans-serif;
-    color: #303030
+    font-family: Montserrat, sans-serif
 }
 
 .div-block-5 {
@@ -3083,6 +3083,11 @@ p {
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
+}
+
+.div-block-6:nth-child(2n) {
+    background-color: rgb(168, 160, 160);
+    color: rgb(0, 98, 164);
 }
 
 .div-block-7 {
@@ -3442,7 +3447,8 @@ p {
 }
 
 .image-6.mobile.qa {
-    top: 131px
+    top: 131px;
+    right: 42px
 }
 
 .image-7 {
@@ -3811,7 +3817,7 @@ p {
 .image-22 {
     width: 50px;
     height: 46px;
-    max-width: none
+    max-width: none;
 }
 
 .image-23 {
