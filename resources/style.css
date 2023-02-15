@@ -1,0 +1,23 @@
+p 
+.div-block-6:nth-child(2n){
+    background-color: aquamarine;
+    margin-bottom: 1px;}
+.div-block-6:nth-child(2n) .text-block-5 {
+    color: blue;}
+.div-block-6:nth-child(odd) .text-block-5 {
+    color: blue;}
+.div-block-6:nth-child(2n) {
+    background-color: rgb(138, 142, 141);}
+.div-block-6:nth-child(odd) {
+    background-color: rgb(41, 219, 175);}
+.calc-input {
+    width: 90px;
+    background-color: aqua;
+    border-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+.div-block-27 {
+    background-color: aquamarine;}
+.calculate {
+    background-color: aquamarine;}
+.calc-op {background-color: aqua;}       
