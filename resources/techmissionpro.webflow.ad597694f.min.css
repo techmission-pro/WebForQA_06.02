@@ -2106,6 +2106,14 @@ p {
     margin-bottom: 5px
 }
 
+.calc-input {
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+    border-color: #00ff0b;
+    border-width: 5px;
+}
+
 .button2 {
     display: -webkit-box;
     display: -webkit-flex;
