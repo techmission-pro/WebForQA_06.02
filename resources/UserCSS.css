@@ -1,0 +1,7 @@
+.div-block-6:nth-child(even){
+	background-color:#a9a9a9;
+}
+
+.div-block-6:nth-child(even) .text-block-5{
+	color:blue;
+}
