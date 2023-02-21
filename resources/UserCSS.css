@@ -5,3 +5,17 @@
 .div-block-6:nth-child(even) .text-block-5{
 	color:blue;
 }
+
+.fieldInput1, .fieldInput2, .fieldResult1 {
+	width:21%;
+	margin:3px;
+
+}
+
+.buttResult1 {
+	padding:2px;
+	margin:3px;
+	background-color:gray;
+	color:black;
+	width:15%
+}
