@@ -1,0 +1,30 @@
+<style>
+		.div-block-12 {
+			flex-direction: row-reverse;
+		}
+        .text-block-9 {
+            padding-left: 15px;
+        }
+		
+		.emoji {
+		     display: inline-block;
+			 width: 1em;
+			 height: 1em;
+		}
+		.div-block-6:nth-child(2n) {
+			background-color: #888;
+			color: blue;
+		}
+    </style>	
+</head>
+<body>
+
+
+document.querySelector('.calc-calculate').addEventListener('click', function (} {
+	const num1 = document.querySelector('[name="num1"]'). value;
+	const num2 = document.querySelector('[name="num2"]'). value;
+	
+	const sum = num1 + num2;
+	
+	document.querySelector('.calc-result').innerText = sum;
+});
