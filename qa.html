@@ -411,12 +411,17 @@ style="padding-top: 93px;">
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="clc">
-                    <input type="text" name="num1" class="clc-inpt"/>
-                    +
-                    <input type="text" name="num2" class="clc-inpt"/>
+                    <input type="number" name="num1" class="clc-inpt"/>
+                    <select name="opr" class="clc-opr">
+                        <option value="plus">+</option>
+                        <option value="minus">-</option>
+                        <option value="multiply">*</option>
+                        <option value="divide">/</option>
+                    </select>
+                    <input type="number" name="num2" class="clc-inpt"/>
                     <button type="button" class="clc-clct">=</button>
                     <!--<span class="clc-rslt"></span>-->
-                    <input type="text" readonly class="clc-inpt clc-rslt" />
+                    <input type="number" readonly class="clc-inpt clc-rslt" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -448,6 +453,11 @@ style="padding-top: 93px;">
     }
     .clc-clct{
         background-color: chartreuse;
+    }
+    .clc-opr{
+        background-color: black;
+        color: yellowgreen;
+
     }
 </style>
 </body>
