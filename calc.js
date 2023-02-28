@@ -9,12 +9,12 @@ function calculate() {
 		result = num1 + num2;
 	} else if (op === 'minus') {
         result = num1 - num2;
-    } else if (op === 'multiply') { 
+    } else if (op === 'multiply') {
         result = num1 * num2;
 	} else if (op === 'divide') {	
 	    result = num1 / num2;
 	} else {
-        console.error('Wrong op!');
+        console.error('Wrong op!);
         alert('Wrong operation is selected');
     }
     document.querySelector('.calc-result').value = result;
@@ -34,4 +34,4 @@ document.querySelector('[name="num1"]').addEventListener('input', function() {
 
 document.querySelector('[name="num2"]').addEventListener('input', function() {
 	calculate();
-}); 
+});
