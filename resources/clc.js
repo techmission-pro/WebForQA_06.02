@@ -1,4 +1,4 @@
-document.querySelector('.clc-clct').addEventListener('click', function(){
+function calculate(){
     const num1 = document.querySelector('[name="num1"]').value;
     const num2 = document.querySelector('[name="num2"]').value;
     const opr = document.querySelector('[name="opr"]').value;
@@ -17,4 +17,16 @@ document.querySelector('.clc-clct').addEventListener('click', function(){
         alert('Wrong operation is selected');
     }
     document.querySelector('.clc-rslt').value = rslt;
+}
+document.querySelector('.clc-clct').addEventListener('click', function(){
+    calculate();
+});
+document.querySelector('[name="opr"]').addEventListener('change', function(){
+    calculate();
+});
+document.querySelector('[name="num1"]').addEventListener('input', function(){
+    calculate();
+});
+document.querySelector('[name="num2"]').addEventListener('input', function(){
+    calculate();
 });
