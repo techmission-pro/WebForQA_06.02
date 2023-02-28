@@ -410,7 +410,13 @@ style="padding-top: 93px;">
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="clc">
+                    <input type="text" name="num1" class="clc-inpt"/>
+                    +
+                    <input type="text" name="num2" class="clc-inpt"/>
+                    <button type="button" class="clc-clct">=</button>
+                    <!--<span class="clc-rslt"></span>-->
+                    <input type="text" readonly class="clc-inpt clc-rslt" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -433,6 +439,16 @@ style="padding-top: 93px;">
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <!-- Привіт -->
-
+<script src="./resources/clc.js"></script>
+<style>
+    .clc-inpt{
+        width: 55px;
+        text-align: center ;
+        background-color: aquamarine;
+    }
+    .clc-clct{
+        background-color: chartreuse;
+    }
+</style>
 </body>
 </html>
