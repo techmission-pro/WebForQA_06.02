@@ -19,7 +19,7 @@ function calculate () {
              alert('Wrong operation is sekected');
     }
 
-	document.queryselector('.calc-calculate') value = result;
+	document.queryselector('.calc-result').value = result;
 }
 
 
@@ -27,21 +27,20 @@ function calculate () {
 
 document.queryselector('.calc-calculate').addEventlistener('click', function () {
 calculate ();
-)); 
+ 
 
 
 
-document.queryselector('.calc-calculate').addEventlistener('change', function () {
+document.queryselector('[name="op"]').addEventlistener('change', function () {
 calculate ();
-)); 
 
 
-document.queryselector('.calc-calculate').addEventlistener('input', function () {
+
+document.queryselector('[name="num1"]').addEventlistener('change', function () {
 calculate ();
-)); 
+ 
 	
 
 
-document.queryselector('.calc-calculate').addEventlistener('change', function () {
+document.queryselector('[name="num2"').addEventlistener('change', function () {
 calculate ();
-)); 
