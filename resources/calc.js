@@ -19,28 +19,32 @@ function calculate () {
              alert('Wrong operation is sekected');
     }
 
-	document.queryselector('.calc-result').value = result;
+	document.querySelector('.calc-result').value = result;
 }
 
 
 
 
-document.queryselector('.calc-calculate').addEventlistener('click', function () {
+document.querySelector('.calc-calculate').addEventListener('click', function () {
 calculate ();
+});
  
 
 
 
-document.queryselector('[name="op"]').addEventlistener('change', function () {
+document.querySelector('[name="op"]').addEventListener('change', function () {
 calculate ();
+});
 
 
 
-document.queryselector('[name="num1"]').addEventlistener('change', function () {
+document.querySelector('[name="num1"]').addEventListener('change', function () {
 calculate ();
+});
  
 	
 
 
-document.queryselector('[name="num2"').addEventlistener('change', function () {
+document.querySelector('[name="num2"').addEventListener('change', function () {
 calculate ();
+});
